@@ -700,7 +700,6 @@ ul.email li i {
      padding-right: 112px;
      padding-top: 48px;
      padding-bottom: 32px;
-
 }
 .about .container-fluid{
      padding: 80px 0px 80px 0px;
@@ -1187,6 +1186,7 @@ letter-spacing: 0.5px;
      padding: 80px 80px 80px 80px;
      border-radius: 32px;
      background: rgba(238, 249, 254, 0.50);
+     justify-content: center;
     }
     .aboutme h2{
     padding-bottom: 30px;
@@ -1194,6 +1194,9 @@ letter-spacing: 0.5px;
     font-size: 45px;
     line-height: 60px;
     font-weight: bold;
+    justify-content: center;
+    text-align:center;
+   
     }
     .aboutme p {
      font-weight: 400;
@@ -1201,5 +1204,7 @@ letter-spacing: 0.5px;
      line-height: 30px;
      color: #201f1f;
      padding-bottom: 32px;
+     justify-content: center;
+     text-align: center;
  }
    
