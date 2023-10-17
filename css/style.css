@@ -301,12 +301,12 @@ button {
 .loader_bg {
      position: fixed;
      z-index: 9999999;
-     background: #fff;
+     background: #25A2B7;
      width: 100%;
      height: 100%;
 }
 
-.loader {
+.loader1 {
      height: 100%;
      width: 100%;
      position: absolute;
@@ -1129,3 +1129,56 @@ letter-spacing: 0.5px;
 }
 
 /** end contact **/
+.reveal{
+     position: relative;
+     transform: translateY(150px);
+     opacity: 0;
+     transition: 1s all ease;
+}
+.reveal.active{
+     transform: translateY(0);
+     opacity: 1;
+   }
+
+   .loader {
+     width: 48px;
+     height: 48px;
+     display: block;
+     margin:15px auto;
+     position: relative;
+     color: #FFF;
+     box-sizing: border-box;
+     animation: rotation 1s linear infinite;
+    }
+    .loader::after,
+    .loader::before {
+     content: ''; 
+     box-sizing: border-box;
+     position: absolute;
+     width: 24px;
+     height: 24px;
+     top: 50%;
+     left: 50%;
+     transform: scale(0.5) translate(0, 0);
+     background-color: #FFF;
+     border-radius: 50%;
+     animation: animloader 1s infinite ease-in-out;
+    }
+    .loader::before {
+     background-color: #1e444b;
+     transform: scale(0.5) translate(-48px, -48px);
+    }
+    
+    @keyframes rotation {
+     0% {
+     transform: rotate(0deg);
+     }
+     100% {
+     transform: rotate(360deg);
+     }
+    } 
+    @keyframes animloader {
+     50% {
+     transform: scale(1) translate(-50%, -50%);
+    }
+    }

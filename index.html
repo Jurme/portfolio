@@ -27,10 +27,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout">
+   <body class="main-layout ">
       <!-- loader  -->
       <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+         <div class="loader1"><span class="loader"></span></div>
       </div>
       <!-- end loader -->
       <!-- header -->
@@ -79,7 +79,7 @@
       <!-- top -->
       <div class="full_bg">
          <div class="slider_main">
-            <div class="container-fluid">
+            <div class="container-fluid ">
                <div class="row">
                   <div class="col-md-12">
                      <!-- carousel code -->
@@ -120,7 +120,7 @@
   <!-- about -->
 <div class="casestudies" id="casestudies">
   <div class="about">
-   <div class="container-fluid">
+   <div class="container-fluid reveal">
       <div class="row d_flex">
          <div class="col-md-6">
             <div class="titlepage text_align_left">
@@ -141,13 +141,13 @@
          </div>
       </div>
    </div>
-</div>
+</div>s
 </div>
 <br>
 <br>
 <div class="casestudies">
   <div class="about">
-   <div class="container-fluid">
+   <div class="container-fluid reveal">
       <div class="row d_flex">
          <div class="col-md-6">
             <div class="about_img text_align_center">
@@ -178,7 +178,7 @@
 
       <!-- our class -->
       <div class="class" id="services">
-         <div class="container">
+         <div class="container reveal">
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage text_align_center">
@@ -228,7 +228,7 @@
       <!-- end shop -->
       <!-- testimonial -->
       <div class="testimonial">
-         <div class="container">
+         <div class="container reveal">
             <div class="row">
                <div class="col-sm-12">
                   <div class="titlepage text_align_center">
@@ -282,7 +282,7 @@
                            </div>
                         </div>
                         <div class="carousel-item">
-                           <div class="container-fluid">
+                           <div class="container-fluid reveal">
                               <div class="carousel-caption relative">
                                  <div class="row d_flex">
                                     <div class="col-md-3">
@@ -416,5 +416,26 @@
            }
          }
          </script>
+   <script>
+      function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+   </script>
+       
    </body>
 </html>
