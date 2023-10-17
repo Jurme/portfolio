@@ -194,7 +194,7 @@ File Name: responsive.css
         margin-top: -37px;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
+        background: url(../images/bars.svg);
         background-repeat: no-repeat;
         width: 48px;
         float: right;
@@ -330,7 +330,7 @@ File Name: responsive.css
         outline: inherit;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
+        background: url(../images/bars.svg);
         background-repeat: no-repeat;
         width: 48px;
     }
@@ -423,6 +423,25 @@ h3 {
 }
 .class_box h3{
     font-size: 20px;
+}
+.aboutme{
+    padding: 16px 16px 16px 16px;
+    border-radius: 12px;
+    background: rgba(238, 249, 254, 0.50);
+   }
+   .aboutme h2{
+   padding-bottom: 12px;
+   color: #080808;
+   font-size: 24px;
+   line-height: 60px;
+   font-weight: bold;
+   }
+   .aboutme p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #201f1f;
+    padding-bottom: 12px;
 }
 
 }
