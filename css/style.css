@@ -333,6 +333,7 @@ z-index: 999;
 .sticky {
      position: fixed;
      background-color: rgba(255, 255, 255, 0.85);
+     box-shadow: 0 0 4px rgb(231, 229, 228);
      backdrop-filter: blur(12px);
      top: 0;
      width: 100%
