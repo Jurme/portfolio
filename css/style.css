@@ -782,7 +782,7 @@ ul.email li i {
      
      background: url(../images/testbg.png);
      padding: 80px 112px 24px 112px ;
-     margin-top: 90px;
+     margin-top: 56px;
 }
 
 .testimonial .titlepage h2 {
@@ -879,8 +879,9 @@ ul.email li i {
 .white_bg {
      background: #fff;
      padding: 0 40px 60px 40px;
-     margin: 0 20px;
+     margin: 0 20px 32px;
      box-shadow: 0 0 38px rgba(14, 14, 13, 0.27);
+     height: 426px;
 }
 
 .white_bg span {
@@ -917,7 +918,7 @@ ul.email li i {
 /** footer **/
 
 .footer {
-     padding-top: 120px;
+     padding-top: 80px;
      text-align: center;
      align-items: center;
 }
@@ -1210,4 +1211,3 @@ letter-spacing: 0.5px;
  }
  .navbar { z-index: 1;}
  .navbar-nav {align-items: center;}
-  
