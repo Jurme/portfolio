@@ -478,7 +478,7 @@ ul.email li i {
 }
 .offer{
      background: linear-gradient(85.91deg,#faf4fd -31.4%,#f0f9fd 57.96%,#f1fcfb 146.43%);
-     padding: 56px 100px;
+     padding: 56px 112px 80px 112px ;
 }
 .offercontainer{
      display: flex;
