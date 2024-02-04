@@ -29,8 +29,7 @@
 }
 .main-layout{
      scroll-behavior: smooth;
-     background: url(../images/grid.svg);
-     background-repeat: repeat-y;
+     background: linear-gradient(252.93deg,#f8f3f8 33.59%,#f8fafc 59.88%,#f5f7f6 87.87%)
 }
 
 .container {
@@ -475,9 +474,52 @@ ul.email li i {
      padding-top: 15px;
      color: #2b2b2b;
 }
+.offer{
+     background: linear-gradient(85.91deg,#faf4fd -31.4%,#f0f9fd 57.96%,#f1fcfb 146.43%);
+     padding: 56px 100px;
+}
+.offercontainer{
+     display: flex;
+     flex-direction: row;
+     align-items: stretch;
+     justify-content: space-evenly;
+     overflow: hidden;
+     position: relative; 
+}
+.offercard{
+     height: 400px;
+     border-radius: 10px;
+     padding: 32px 24px 24px 24px;
+     background:white;
+     background-size: 400% 400%;
+     box-shadow: 0px 12px 19px 0px #0000000F;
+    
+      /*min-height: calc(100vh - 2rem);*/
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      overflow: hidden;
+      position: relative; 
+}
+.offercard .serviceicon{
+     height: 48px;
+     width: 48px;
+     margin-bottom: 24px;
+}
+.offercard .cardline{
+     width: 56px;
+     padding-bottom: 16px;
+}
+.offercard h3{
+     font-size:20px;
+     font-weight: 700;
+     padding-bottom: 16px;
+}
 
-
-.class_box {
+.aboutme {
+     padding: 80px 80px 80px 80px;
+     border-radius: 32px;
+     justify-content: center;
      height: 400px;
      border-radius: 10px;
      padding: 32px 24px 24px 24px;
@@ -496,8 +538,8 @@ ul.email li i {
       overflow: hidden;
       position: relative; 
  }
- .class_box::before, 
- .class_box::after {
+ .aboutme::before, 
+ .aboutme::after {
       content: "";
       width: 70vmax;
       height: 70vmax;
@@ -589,29 +631,10 @@ ul.email li i {
       .st15{opacity:0.3;fill:#FFFFFF;enable-background:new;
      }
 
-.class_box:hover{
+.aboutme:hover{
      background: radial-gradient(135.07% 142.42% at 2.15% 102.49%, #5656DB 0.41%, #0b5f7a 95.31%);
 }
-.class_box img{
-          max-width: 88px;
-          height: auto;
-}
 
-.class_box h3 {
-     color: #fff;
-     font-size: 25px;
-    
-     font-weight: bold;
-     line-height: 22px;
-     padding: 30px 0;
-}
-
-.class_box p {
-     color: #fff;
-     font-size: 16px;
-     line-height: 28px;
-
-}
 
 .blue {
      background: #3e0bce;
@@ -626,7 +649,10 @@ ul.email li i {
 
 
 /** about section **/
+.casestudies{
+     padding-bottom:80px;
 
+}
 .about {
      background-size: cover;
      background-position: center center;
@@ -634,13 +660,13 @@ ul.email li i {
      background-attachment: fixed;
      padding-left: 112px;
      padding-right: 112px;
-     padding-top: 48px;
-     padding-bottom: 32px;
+     padding-top: 80px;
+     
 }
 .about .container-fluid{
      padding: 80px 0px 80px 0px;
      border-radius: 32px;
-     background: rgba(243, 243, 252, 0.64);
+     background: rgba(255, 255, 255, 0.64);
 }
 .about .titlepage {
      padding-bottom: 0;
@@ -1119,15 +1145,9 @@ letter-spacing: 0.5px;
     }
     }
 
-    .aboutme{
-     padding: 56px 80px 56px 80px;
-     border-radius: 32px;
-     background: rgba(243, 243, 252, 0.7);
-     justify-content: center;
-    }
     .aboutme h2{
     padding-bottom: 30px;
-    color: #080808;
+    color: #f9f8f8;
     font-size: 45px;
     line-height: 60px;
     font-weight: bold;
@@ -1139,7 +1159,7 @@ letter-spacing: 0.5px;
      font-weight: 400;
      font-size: 18px;
      line-height: 30px;
-     color: #201f1f;
+     color: #f6f3f3;
      padding-bottom: 32px;
      justify-content: center;
      text-align: center;
@@ -1375,7 +1395,7 @@ letter-spacing: 0.5px;
    background-color: #5656DB;
    background-image: none;
    border: 1px solid #5656DB;
-   border-radius: 4px;
+   border-radius: 8px;
    box-shadow: #fff 4px 4px 0 0,#5656DB 4px 4px 0 1px;
    box-sizing: border-box;
    color: #fff;
