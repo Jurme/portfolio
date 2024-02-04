@@ -1096,12 +1096,12 @@ letter-spacing: 0.5px;
      top: 50%;
      left: 50%;
      transform: scale(0.5) translate(0, 0);
-     background-color: #64b4c2;
+     background-color: #6E71FD;
      border-radius: 50%;
      animation: animloader 1s infinite ease-in-out;
     }
     .loader::before {
-     background-color: #1e444b;
+     background-color: #DF347F;
      transform: scale(0.5) translate(-48px, -48px);
     }
     
