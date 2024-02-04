@@ -1200,6 +1200,7 @@ letter-spacing: 0.5px;
                  display: flex;
                  flex-direction: column;
                  li{
+
                      all:unset;
                      display: block;
                      position: relative;
@@ -1343,9 +1344,11 @@ letter-spacing: 0.5px;
                      display: flex;
                      list-style: none;
                      li{
-                         background: #000;
+                         background: #7a7777;
                          background-clip: padding-box;
-                         height: 2px;
+                         height: 5px;
+                         width: 40px;
+                         border-radius: 78px;
                      }
                  }
                  .carousel-inner{
