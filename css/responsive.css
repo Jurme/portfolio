@@ -17,9 +17,7 @@ File Name: responsive.css
     #carouselExampleIndicators .carousel-control-prev {
         left: 3%;
     }
-    .about {
-        padding: 90px 0;
-    }
+
     #myCarousel a.carousel-control-prev {
        left: 41%;
     }
@@ -433,11 +431,13 @@ h3 {
    padding-bottom: 12px;
    color: #080808;
    font-size: 24px;
+   text-align: left;
    line-height: 60px;
    font-weight: bold;
    }
    .aboutme p {
     font-weight: 400;
+    text-align: left;
     font-size: 16px;
     line-height: 30px;
     color: #201f1f;

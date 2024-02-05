@@ -516,12 +516,26 @@ ul.email li i {
      font-weight: 700;
      padding-bottom: 16px;
 }
+.infocards{
+     display: flex;
+     flex-direction: row;
+     align-items: stretch;
+     justify-content: space-between;
+     overflow: hidden;
+     position: relative;    
+}
+
+.info h2{
+text-align: left;
+padding-bottom: 24px;
+}
+
 
 .aboutme {
     
      border-radius: 32px;
      justify-content: center;
-     padding: 48px 88px 88px 88px;
+     padding: 48px 80px 48px 80px;
      background: -moz-linear-gradient(45deg, #5656DB 0%, #4343af 29%, #5656DB 66%, #0a7d95 100%);
      background: -webkit-linear-gradient(45deg, #5656DB 0%,rgb(9, 107, 132) 29%,rgb(28, 111, 127) 66%,#0e7588 100%);
      background: linear-gradient(45deg, #5656DB 0%,#5656DB 29%,#5656DB 66%,#146979 100%);
@@ -1145,13 +1159,13 @@ letter-spacing: 0.5px;
     }
 
     .aboutme h2{
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     color: #f9f8f8;
     font-size: 45px;
     line-height: 60px;
     font-weight: bold;
     justify-content: center;
-    text-align:center;
+    text-align:left;
    
     }
     .aboutme p {
@@ -1161,7 +1175,7 @@ letter-spacing: 0.5px;
      color: #f6f3f3;
      padding-bottom: 32px;
      justify-content: center;
-     text-align: center;
+     text-align: left;
  }
  .navbar { z-index: 1;}
  .navbar-nav {align-items: center;}
