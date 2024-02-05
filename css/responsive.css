@@ -364,7 +364,14 @@ File Name: responsive.css
         float: right;
     }
     
-
+.offer {
+        background: linear-gradient(85.91deg,#faf4fd -31.4%,#f0f9fd 57.96%,#f1fcfb 146.43%);
+        padding: 24px 24px 24px 24px;
+    }
+.offercontainer{
+    display: flex;
+    flex-direction: column;
+    }
 .about .titlepage h2{
     font-size: 24px;
     padding-bottom:12px ;
@@ -425,11 +432,10 @@ h3 {
 .aboutme{
     padding: 16px 16px 16px 16px;
     border-radius: 12px;
-    background: rgba(238, 249, 254, 0.50);
    }
    .aboutme h2{
    padding-bottom: 12px;
-   color: #080808;
+   color: #fef9f9;
    font-size: 24px;
    text-align: left;
    line-height: 60px;
@@ -440,8 +446,23 @@ h3 {
     text-align: left;
     font-size: 16px;
     line-height: 30px;
-    color: #201f1f;
+    color: #f9f4f4;
     padding-bottom: 12px;
 }
+.infocards {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+.carousel h1 {
+    font-size: 24px;
+    line-height: 1.225;
+    margin-top: 23px;
+    font-weight: 700;
+    margin-bottom: 0;
 
+}
 }
