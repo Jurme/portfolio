@@ -946,9 +946,9 @@ ul.social_icon li {
 }
 
 ul.social_icon li a {
-     background: #343334;
-     width: 33px;
-     height: 33px;
+     background: #535253;
+     width: 48px;
+     height: 48px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -968,18 +968,17 @@ ul.social_icon li a:hover {
 }
 
 .copyright {
-     margin-top: 90px;
-     padding-bottom: 25px;
-     background: rgba(239, 235, 232, 0.7);
+     margin-top: 112px;
+     padding-bottom: 112px;
+     background: rgba(245, 245, 245, 0.5);
 }
 
 .copyright p {
      color: #171515;
-     font-size: 17 px;
+     font-size: 20px;
      line-height: 22px;
      text-align: center;
-     padding-top: 25px;
-     font-weight: 400;
+     padding-top: 80px;
      font-weight: normal;
 }
 
@@ -1117,7 +1116,7 @@ letter-spacing: 0.5px;
      top: 50%;
      left: 50%;
      transform: scale(0.5) translate(0, 0);
-     background-color: #6E71FD;
+     background-color: #5052db;
      border-radius: 50%;
      animation: animloader 1s infinite ease-in-out;
     }
