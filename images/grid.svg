@@ -1,7 +1,7 @@
-<svg width="1328" height="800" viewBox="0 0 1328 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="112.5" y1="0.5" x2="112.5" y2="799.5" stroke="black" stroke-opacity="0.08" stroke-linecap="round" stroke-dasharray="4 4"/>
-<line x1="388.5" y1="0.5" x2="388.5" y2="799.5" stroke="black" stroke-opacity="0.08" stroke-linecap="round" stroke-dasharray="4 4"/>
-<line x1="664.5" y1="0.5" x2="664.5" y2="799.5" stroke="black" stroke-opacity="0.08" stroke-linecap="round" stroke-dasharray="4 4"/>
-<line x1="940.5" y1="0.5" x2="940.5" y2="799.5" stroke="black" stroke-opacity="0.08" stroke-linecap="round" stroke-dasharray="4 4"/>
-<line x1="1216.5" y1="0.5" x2="1216.5" y2="799.5" stroke="black" stroke-opacity="0.08" stroke-linecap="round" stroke-dasharray="4 4"/>
+<svg width="1440" height="4430" viewBox="0 0 1440 4430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="112.5" y1="0.5" x2="112.5" y2="4429.5" stroke="black" stroke-opacity="0.16" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="416.5" y1="0.5" x2="416.5" y2="4429.5" stroke="black" stroke-opacity="0.16" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="720.5" y1="0.5" x2="720.5" y2="4429.5" stroke="black" stroke-opacity="0.16" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="1024.5" y1="0.5" x2="1024.5" y2="4429.5" stroke="black" stroke-opacity="0.16" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="1328.5" y1="0.5" x2="1328.5" y2="4429.5" stroke="black" stroke-opacity="0.16" stroke-linecap="round" stroke-dasharray="4 4"/>
 </svg>
