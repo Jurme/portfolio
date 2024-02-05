@@ -1409,8 +1409,6 @@ letter-spacing: 0.5px;
  .button-50 {
    appearance: button;
    background: linear-gradient(90.07deg, #6E71FD 51.61%, #DF347F 163.75%);
-   ;
-   border: 1px solid #5656DB;
    border-radius: 8px;
    box-shadow: #fff 4px 4px 0 0,#5656DB 4px 4px 0 1px;
    box-sizing: border-box;
