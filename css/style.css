@@ -46,7 +46,6 @@ html {
      
 }
 
-
 a {
      color: #1f1f1f;
      text-decoration: none !important;
@@ -132,7 +131,7 @@ ol {
 p {
      margin: 0px;
      font-weight: 400;
-     font-size: 17px;
+     font-size: 16px;
      line-height: 24px;
 }
 
@@ -482,6 +481,10 @@ ul.email li i {
      background: linear-gradient(85.91deg,#faf4fd -31.4%,#f3f3fb 57.96%,#fbfbfe 146.43%);
      padding: 56px 112px 80px 112px ;
 }
+.offering{
+     flex: 0 0 calc(33.3333% - 15px); /* Adjust the width as needed */
+     max-width: calc(33.3333% - 15px); /* Adjust the width as needed */
+   }
 .offercontainer{
      display: flex;
      flex-direction: row;
@@ -491,7 +494,7 @@ ul.email li i {
      position: relative; 
 }
 .offercard{
-     height: 400px;
+     height: 380px;
      border-radius: 16px;
      padding: 32px 24px 24px 24px;
      background:white;
@@ -504,6 +507,7 @@ ul.email li i {
       align-items: stretch;
       overflow: hidden;
       position: relative; 
+
 }
 .offercard .serviceicon{
      height: 48px;
@@ -515,9 +519,14 @@ ul.email li i {
      padding-bottom: 16px;
 }
 .offercard h3{
-     font-size:20px;
-     font-weight: 700;
+     font-size:18px;
+     font-weight: 600;
      padding-bottom: 16px;
+}
+.offercard p{
+     font-size:16px;
+     color: #6A6F6F;
+
 }
 .infocards{
      display: flex;
@@ -804,7 +813,12 @@ padding-bottom: 24px;
 .testimonial .carousel-item {
      padding-top: 53px;
 }
-
+.testimonial h4 {
+     font-size: 18px;
+     color: #3f3f4d;
+     line-height: 25px;
+     margin-top: 38px;
+}
 .test_box {
      background: #03032D;
      border-radius: 20px;
@@ -837,6 +851,7 @@ padding-bottom: 24px;
      font-weight: bold;
      margin-top: 38px;
 }
+
 
 .test_box img {
      width: 20px;
