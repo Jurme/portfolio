@@ -480,6 +480,7 @@ ul.email li i {
 .offer{
      background: linear-gradient(85.91deg,#faf4fd -31.4%,#f3f3fb 57.96%,#fbfbfe 146.43%);
      padding: 56px 112px 80px 112px ;
+     overflow: visible;
 }
 .offering{
      flex: 0 0 calc(33.3333% - 15px); /* Adjust the width as needed */
@@ -490,7 +491,7 @@ ul.email li i {
      flex-direction: row;
      align-items: stretch;
      justify-content: space-evenly;
-     overflow: hidden;
+     overflow: visible;
      position: relative; 
 }
 .offercard{
@@ -978,8 +979,8 @@ ul.social_icon li a:hover {
      font-size: 20px;
      line-height: 22px;
      text-align: center;
-     padding-top: 80px;
-     font-weight: normal;
+     padding-top: 80px; 
+   font-weight: normal;
 }
 
 
