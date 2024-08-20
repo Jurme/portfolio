@@ -365,8 +365,7 @@ File Name: responsive.css
     }
     
 .offer {
-        background: linear-gradient(85.91deg,#faf4fd -31.4%,#f0f9fd 57.96%,#f1fcfb 146.43%);
-        padding: 24px 24px 24px 24px;
+            padding: 24px 24px 24px 24px;
     }
  .offering{
     display: flex;
