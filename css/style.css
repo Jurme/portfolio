@@ -29,13 +29,14 @@
 }
 .main-layout{
      scroll-behavior: smooth;
-     position: relative; 
-     background-image: url("../images/grid.svg");
-     background-repeat: repeat-y;
-     width: 100%;
-     background-size: cover;
-     background-attachment: fixed;
+     position: relative;
+     background: 
+         url("../images/grid.svg") repeat-y fixed center center, /* Image Layer */
+         url("../images/Color.svg") repeat-y fixed center center, /* Image Layer */
 
+         linear-gradient(180deg, #E5E6E6 0%, #EEF0F3 100%);   
+     background-size: cover;
+     width: 100%;
 }
 
 .container {
@@ -155,7 +156,6 @@ a,
 }
 
 img {
-     max-width: 100%;
      height: auto;
 }
 
@@ -480,7 +480,6 @@ ul.email li i {
      color: #2b2b2b;
 }
 .offer{
-     background: linear-gradient(85.91deg,#faf4fd -31.4%,#f3f3fb 57.96%,#fbfbfe 146.43%);
      padding: 56px 112px 80px 112px ;
      overflow: visible;
 }
@@ -498,12 +497,12 @@ ul.email li i {
 }
 .offercard{
      height: 380px;
-     border-radius: 16px;
      padding: 32px 24px 24px 24px;
-     background:white;
      background-size: 400% 400%;
      box-shadow: 0px 12px 19px 0px #0000000F;
-    
+     border-radius: 32px;
+     border: 2px solid rgba(255, 255, 255, 0.50);
+     background: var(--Gradient, linear-gradient(180deg, #F5F5F9 0%, #E4E8EE 100%));
       /*min-height: calc(100vh - 2rem);*/
       display: flex;
       flex-direction: column;
@@ -551,9 +550,9 @@ padding-bottom: 24px;
      border-radius: 32px;
      justify-content: center;
      padding: 48px 80px 48px 80px;
-     background: -moz-linear-gradient(45deg, #03032D 0%, #4343af 29%, #03032D 66%, #022b33 100%);
-     background: -webkit-linear-gradient(45deg, #03032D 0%,rgb(1, 28, 35) 29%,rgb(2, 32, 39) 66%,#03032D 100%);
-     background: linear-gradient(45deg, #03032D 0%,#03032D 29%,#03032D 66%,#03032D 100%);
+     background: -moz-linear-gradient(45deg, #000003 0%, #000008 29%, #000003 66%, #000003 100%);
+     background: -webkit-linear-gradient(45deg, hwb(240 0% 97%) 0%,rgb(1, 28, 35) 29%,rgb(2, 32, 39) 66%,#000003 100%);
+     background: linear-gradient(45deg, #000003 0%,#000003 29%,#000003 66%,#000003 100%);
      background-size: 400% 400%;
      -webkit-animation: Gradient 10s ease infinite;
       -moz-animation: Gradient 10s ease infinite;
@@ -689,7 +688,8 @@ padding-bottom: 24px;
 .about .container-fluid{
      padding: 80px 0px 80px 0px;
      border-radius: 32px;
-    background: rgba(245, 245, 245, 0.7);
+     border: 2px solid rgba(255, 255, 255, 0.50);
+     background: var(--Gradient, linear-gradient(180deg, #F5F5F9 0%, #E4E8EE 100%));
 
 }
 .about .titlepage {
@@ -1449,3 +1449,113 @@ letter-spacing: 0.5px;
      padding: 12px 50px;
    }
  }
+.cases{
+   Padding-top: 64px;
+}
+
+.cases h2{
+     padding-bottom: 24px;
+     font-size: 45px;
+     line-height: 60px;
+     font-weight: bold;
+     justify-content: center;
+     text-align:left;
+     }
+
+.cases h3{
+          font-size:20px;
+          font-weight: 600;
+          padding-bottom: 16px;
+     }
+.cases p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      padding-bottom: 32px;
+      justify-content: center;
+      text-align: left;
+      font-weight: 300px;;
+     }
+.problemstatment{
+    padding-bottom:  56px;;
+     margin-left: 180px;
+     margin-right: 180px;
+
+}
+
+.users{
+     padding-bottom:  56px;;
+     margin-left: 180px;
+     margin-right: 180px;
+     margin-right: 180px;
+
+
+}
+.designprocess{
+     padding-bottom:  56px;;
+     margin-left: 180px;
+     margin-right: 180px;
+}
+.designprocess img{
+     width: 100%;
+}
+.discovery{
+     background-color: #F5F5F5;
+     padding: 48px 180px 56px 180px;
+     align-items: center;
+     
+
+}
+.questions{
+     display: flex;
+}
+.bullet{
+     padding-right:16px;
+}
+.bullet img{
+     width:24px;
+     height:24px;
+
+}
+.usergroup{
+          display: flex;
+          flex-direction: row;
+          align-items: stretch;
+          justify-content: space-evenly;
+          overflow: visible;
+          position: relative; 
+          padding-bottom: 64px;
+     }
+.usergroupcard{
+          height: 380px;
+          border-radius: 16px;
+          padding: 32px 32px 32px 32px;
+          background:white;
+          background-size: 400% 400%;
+          box-shadow: 0px 12px 19px 0px #0000000F;
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          overflow: visible;
+          position: relative; 
+          width: 800px;
+          margin-right: 24px;
+     }
+.usergroupcard .serviceicon{
+          height: 48px;
+          width: 48px;
+          margin-bottom: 24px;
+     }
+.usergroupcard .cardline{
+          width: 56px;
+          padding-bottom: 16px;
+     }
+.usergroupcard h3{
+          font-size:18px;
+          font-weight: 600;
+          padding-bottom: 16px;
+     }
+.usergroupcard p{
+          font-size:16px;
+          color: #6A6F6F;
+     }
