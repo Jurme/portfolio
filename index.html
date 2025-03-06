@@ -36,49 +36,23 @@
       </div>
       <!-- end loader -->
       <!-- header -->
-      <div class="header" id="myHeader">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class=" col-md-2 col-sm-3 col logo_section">
-                  <div class="full">
-                     <div class="center-desk">
-                        <div class="logo">
-                           <a href="index.html"><img src="images/Logo.svg" alt="#" /></a>
-                        </div>
-                     </div>
-                  </div>
+      <div class="header-container">
+         <div class="header-content">
+            <div class="logo-section">
+               <img src="images/Logo.svg" alt="Logo" class="logo-icon">
+               
+            </div>
+            <div class="nav-section">
+               <div class="nav-links">
+                  <a href="#casestudies" class="nav-link">Case Studies</a>
+                  <a href="#offering" class="nav-link">Services</a>
+                  <a href="#aboutme" class="nav-link">About Me</a>
+                  <a href="#footer" class="nav-link">Get in Touch</a>
                </div>
-               <div class="col-md-10 col-sm-10">
-                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
-
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                  
-                     <div class="collapse navbar-collapse" id="navbarsExample04">
-                        <ul class="navbar-nav mr-auto">
-                        
-                           <li class="nav-item">
-                              <a class="nav-link" href="#casestudies">Case Studies</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#offering">Services</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#aboutme">About Me</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#footer">Get in Touch</a>
-                           </li>
-                        </ul>
-                     </div>
-                  </nav>
-               </div>
-         
+               <a href="#footer" class="cta-button">Get in Touch</a>
             </div>
          </div>
       </div>
-      <!-- end header inner -->
       <!-- end header -->
       <!-- top -->
       <div class="full_bg">
@@ -94,7 +68,7 @@
                                  <div class="row d_flex">
                                     <div  class="col-md-6">
                                           <h3 >
-                                              Hi there, I’m Jurme,<br> UI UX Designer
+                                              Hi there, I'm Jurme,<br> UI UX Designer
                                               
                                           </h3> 
                                        
@@ -359,6 +333,16 @@
       <script src="js/custom.js"></script>
       <script>
          AOS.init();
+      </script>
+      <script>
+         window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header-container');
+            if (window.scrollY > 40) {
+                header.classList.add('sticky');
+            } else {
+                header.classList.remove('sticky');
+            }
+        });
       </script>
       <script>
          window.onscroll = function() {myFunction()};
