@@ -219,14 +219,20 @@
 
 @media screen and (max-width: 480px) {
     .header-container {
-        width: calc(100% - 32px);  /* Accounting for both 16px margins */
+        width: calc(100% - 32px);
         left: 16px;
         right: 16px;
         border-radius: 48px;
+        margin-top: 8px;
     }
 
     .header-container.sticky {
-        padding: 8px 16px;
+        padding: 16px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        margin-top: 0;
     }
 
     .logo-icon {
