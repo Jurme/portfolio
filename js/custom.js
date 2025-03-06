@@ -146,4 +146,31 @@ document.querySelector('.hamburger-menu').addEventListener('click', function() {
     }
 });
 
+// Add click event listeners to all nav links
+document.querySelectorAll('.nav-section .nav-link, .nav-section .cta-button').forEach(link => {
+    link.addEventListener('click', function() {
+        // Close the mobile menu
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navSection = document.querySelector('.nav-section');
+        
+        hamburger.classList.remove('active');
+        navSection.classList.remove('active');
+        
+        // Reset hamburger icon
+        const spans = hamburger.querySelectorAll('span');
+        spans[0].style.transform = 'none';
+        spans[1].style.opacity = '1';
+        spans[2].style.transform = 'none';
+        
+        // Small delay to ensure smooth scrolling after menu closes
+        setTimeout(() => {
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }, 300);
+    });
+});
+
 
